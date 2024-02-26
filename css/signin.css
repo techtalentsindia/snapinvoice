@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+        margin: 0;
+        padding: 0;
+        font-family: "Inria Serif", serif;
+}
+h1 {
+        margin: 2rem 0 1rem;
+        font-size: 40px;
+        letter-spacing: 8px;
+        font-weight: 400;
+}
+.text-base {
+        font-size: 14px;
+}
+.float-right {
+        float: right;
+}
+.ml-30 {
+        margin-left: 30px;
+}
+.text-right {
+        text-align: right;
+}
+.d-block {
+        display: block;
+}
+.gray-color {
+        color: #0F0E0E;
+}
+.wrapper {
+
+        width: 100%;
+}
+.grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+}
+.login-left {
+        padding: 8%;
+        background: url(/images/login-bg.svg)top center / cover no-repeat;
+}
+.login-right {
+        background-color: #09B7CE;
+}
+.singnin-box {
+        background: #F5F2F2;
+        padding: 4rem;
+        margin: 0 auto;
+        width: 350px;
+}
+.form-field {
+        margin: 30px 0;
+}
+.form-field>label>a {
+        font-size: 14px;
+}
+.form-field>label {
+        font-size: 18px;
+}
+.form-field>label,
+.form-field>label>a {
+        font-weight: 200;
+        color: #09B7CE;
+}
+input[type=text],
+input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        background-color: #D9D9D9;
+}
+/* Set a style for all buttons */
+button, .or {
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+        font-weight: bold;
+
+}
+.login-btn {
+        border-radius: 25px;
+        background: #09B7CE;
+        color: #fff;
+        margin-top: 3rem;
+}
+.login-organisation {
+        background: #BABCBC;
+        border-radius: 9px;
+
+}
+.or{
+        text-align: center;
+}
+button:hover {
+        opacity: 0.8;
+}
+.social-btn{
+        display: flex;
+        justify-content: space-between;
+
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        background-color: #f44336;
+}
+.login-content {
+        width: 418px;
+        padding: 5rem;
+        color: #fff;
+}
+.wellcome-text {
+        text-align: center;
+        line-height: 30px;
+}
+.join-us {
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+/* .sin{
+        width: 164px;
+        height: 37px;
+        top: 219px;
+        left: 196px;
+        font-family: Inria Serif;
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 37px;
+        letter-spacing: 0.08em;
+        text-align: center;
+        color: #000000;
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        padding-top: 50px;
+        
+}      
+
+.email{
+        width: 71px;
+        height: 37px;
+        top: 323px;
+        left: 209px;
+        font-family: Inria Serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 37px;
+        letter-spacing: 0.08em;
+        text-align: center;
+        color: #09B7CE;
+        margin-right: 30px;
+        margin-left: 40px;
+        margin-top: 40px;
+       
+
+
+}
+
+ #main-div{
+        
+        width: 100%;
+        height: 1068px;
+        left: -3px;       
+
+} 
+#signin-div{
+        width: 484px;
+        height: 828px;
+        min-height: 400px;
+        top: 138px;
+        left: 135px;
+        background: #F5F2F2;
+        /*margin-right: 60px;
+        margin-left: 60px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        padding-left: 20px;
+        float: left;
+        
+}
+
+#welcomeback-div{
+        width: 620px;
+        height: 1117px;
+        left: 837px;
+        background: #09B7CE;
+        float: right;
+}
+
+.clearfix::after{
+        content: "";
+        display: block;
+        clear: both;
+}
+
+input[type=etext] {
+        width: 382px;
+        height: 41px;
+        top: 366px;
+        left: 209px;
+        background-color: #D9D9D9;
+
+        margin-right: 30px;
+        margin-left: 40px;
+        padding-left: 20px;
+
+}
+
+.password{
+        width: 119px;
+        height: 37px;
+        top: 459px;
+        left: 209px;
+        font-family: Inria Serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 37px;
+        letter-spacing: 0.08em;
+        text-align: center;
+        color: #09B7CE;
+        margin-left: 30px;
+        
+}
+
+.sinbtn{
+        width: 381px;
+        height: 60px;
+        top: 629px;
+        left: 231px;
+        border-radius: 45px ;
+        color: #09B7CE;
+}
+
+.btn{
+        width: 381px;
+        height: 60px;
+        top: 629px;
+        left: 231px;
+        border-radius: 45px;
+        background: #09B7CE;
+
+}
+
+.in{
+        width: 93px;
+        height: 38px;
+        top: 640px;
+        left: 380px;
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 38px;
+        letter-spacing: 0.09em;
+        text-align: left;
+        background: #FFFFFF;
+
+}
+
+.button1{
+        width: 381px;
+        height: 60px;
+        top: 629px;
+        left: 231px;
+        border-radius: 45px;
+}
+
+.wb{
+        width: 566px;
+        height: 75px;
+        top: 459px;
+        left: 993px;
+        font-family: Inria Serif;
+        font-size: 72px;
+        font-weight: 400;
+        line-height: 75px;
+        letter-spacing: 0.08em;
+        text-align: center;
+        color: #FFFFFF;
+        margin-left:auto; /*added margin because left and top parameters not workin
+        margin-right:auto; /*added margin because left and top parameters not workin
+        padding-top: 70px;
+}
+
+
+.para{
+        width: 611px;
+        height: 110px;
+        top: 574px;
+        left: 977px;
+        font-family: Inria Serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 37px;
+        letter-spacing: 0.08em;
+        text-align: center;
+        color: #F8F8F8;
+        margin-left: auto; /*added margin because left and top parameters not working
+        margin-right: auto; /*added margin because left and top parameters not workin
+}
+.img{
+        width: 361px;
+        height: 124.5px;
+        top: 279px;
+        left: 922px;
+        background: linear-gradient(180deg, #2CB5D3 -26.91%, rgba(72, 146, 163, 0.6) 100%);
+        display: inline-block;
+        margin-left: 30px;
+        border-left: 30px;
+}
+
+.btn1{
+        height:50px;
+        width:350px;
+        border-radius:25px;
+        text-align:center;
+        color: white;
+        background-color: #09B7CE;
+}
+
+.btn2{
+        background: #BABCBC;
+        height:50px;
+        width:350px;
+        border-radius:25px;
+        text-align:center;
+        color: black;
+
+        
+
+}
+.e12{
+        width: 60px;
+        height: 60px;
+        top: 724px;
+        left: 993px;
+
+}
+.e13{
+        width: 60px;
+        height: 60px;
+        top: 724px;
+        left: 1039px;
+}
+.e14{
+        width: 60px;
+height: 60px;
+top: 724px;
+left: 1079px;
+
+}
+.e15{
+        width: 60px;
+        height: 60px;
+        top: 724px;
+        left: 1124px;
+
+}
+.display{
+        display: flex;
+}
+.d1{
+        display: flex;
+}
+.cc{
+        font-family: monofett;
+        font-size: 22;
+        
+} */

@@ -1,67 +1,106 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <link rel="stylesheet" href="signin.css">
-      
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Snap Invoice</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css//signin.css">
     </head>
-
     <body>
-        <div id="main-div"  class="clearfix">
-          <!-- signin div start -->
-           <div id="signin-div">  
-            <p class="sin">Sign In</p>
-            <p class="email">Email</p>
-            <input type="etext" > 
-            <p class="password">Password</p>
-          
-            <input type="password" >
-                <br><br>
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          
-            <input type="checkbox" >
-            <label for="remember">Remember Password</label><br><br><br>
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-            <button  class="btn1">Sign In</button>
-            <br><br>
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>or</b><br>
-            &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-            <button  class="btn2">Login With Organisation</button>
-            <br><br>
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-             &nbsp; &nbsp;<img src="images/Gmail.jpg">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-             &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="images/Facebook.jpg">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-             &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<img src="images/Twitter.png">
-           </div>
-              <!-- SIGNIN-DIV END-->>
-           <div id="welcomeback-div">
-            <br><br><br><br><br>
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-              <div class="d1">
-                <img  src="images/Group 20.png">
-                <p class="cc">snap invoice</p>
-               <!-- <img  src="Snap Invoice logo.png">-->
-              </div>
-            <p class="wb">Welcome Back.</p>
-            <p class="para">The stress-free hack to growing your business. 
-             Invoice in seconds, get paid faster, and easily track finances 
-             so you can focus on what matters most.</p>
-              <div class="display">
-                <img  src="images/Ellipse 12.PNG">
-                <img  src="images/Ellipse 13.PNG">
-                <img  src="images/Ellipse 14.PNG">
-                <img  src="images/Ellipse 15.PNG">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p style=color:white;>Join 50000+ user</p>
-               
-              </div> 
-             
+      <div class="wrapper grid">
+        <!-- signin div start -->
+        <div class="login-left">
+          <div class="singnin-box">
+            <h3>SIgn In</h3>
+            <form>
+              <div class="form-field">
+                <label for="uname">Username</label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+            </div>
+            <div class="form-field">
+                <label for="psw">Password <a class="psw  float-right" href="#">Forgot password?</a></span></label>
+                
+                <input type="password" placeholder="Enter Password" name="psw" required>
 
+                <span class="text-right d-block gray-color text-base">
+                  <input  type="checkbox" checked="checked" name="remember" /> Remember me
+                </span>
+            
+                <button class="login-btn" type="submit">Sign In</button>
+                <p class="or">or</p>
+                <button class="login-organisation" type="submit">Login Using organisation</button>
+                
+                <div class="social-btn">
+                  <img src="images/Gmail.jpg" alt="" >
+                  <img src="images/Facebook.jpg" alt="" >
+                  <img src="images/Twitter.png" alt="" >
+                  
+                </div>
+               
+              </div>
+            
+             
+            </form>
           </div>
         </div>
+        <div class="login-right">
+              <div class="login-content">
+                <img  src="images/logo.svg">
+               <!-- <img  src="Snap Invoice logo.png">-->
+             
+            <h1>Welcome Back.</h1>
+            <p class="wellcome-text">The stress-free hack to growing your business. 
+             Invoice in seconds, get paid faster, and easily track finances 
+             so you can focus on what matters most.</p>
+              <div class="join-us">
+                <img width="180px" src="./images/joinus.png" alt="" />
+                <span class="ml-30">Join 50000+ user</span>
+               
+              </div> 
+            </div>
+  
+          </div>
+        </div>
+       
+          
+
+         <!-- <div id="signin-div">  
+          <p class="sin">Sign In</p>
+          <p class="email">Email</p>
+          <input type="etext" > 
+          <p class="password">Password</p>
+        
+          <input type="password" >
+              <br><br>
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        
+          <input type="checkbox" >
+          <label for="remember">Remember Password</label><br><br><br>
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          <button  class="btn1">Sign In</button>
+          <br><br>
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>or</b><br>
+          &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+          <button  class="btn2">Login With Organisation</button>
+          <br><br>
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+           &nbsp; &nbsp;<img src="images/Gmail.jpg">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+           &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="images/Facebook.jpg">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+           &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<img src="images/Twitter.png">
+         </div> -->
+            <!-- SIGNIN-DIV END-->
+         
+      </div>
+        
+        <script src="" async defer></script>
     </body>
-   
 </html>
+
