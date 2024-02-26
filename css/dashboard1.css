@@ -1,0 +1,445 @@
+.main-div{
+    height:1833px;
+    width:1716px;
+    left:9078px;
+    top:-8544px;
+    background-image: url(images/Rectangle\ 33-m.png);
+   /* background-size: 100% ,1716px;*/
+    
+}
+.nav{
+    height:100px;
+    width:100%;
+    color:black;
+    text-align: right;  /*added text-align because left and top parameters not working*/
+    margin-right:10px;  /*added margin because left and top parameters not working*/
+   display:inline-block; /*added display because left and top parameters not working*/
+   /* float:right;*/
+}
+.sidebar{
+    height:1733px;
+    width:350px;
+    color:black;
+    text-align:center;  /*added text-align because left and top parameters not working*/
+    float:left;         /*added float property*/
+    margin-right:10px;  /*added margin because left and top parameters not working*/
+    display:block;    /*added display because left and top parameters not working*/
+}
+.welcome-user{
+    height:364px;
+    width:1298px;
+    float:right;  /*added float property*/
+    top:10px;
+    left:392px;
+    margin-top:10px;  /*added margin because left and top parameters not working*/
+    margin-bottom:10px;  /*added margin because left and top parameters not working*/
+    border-radius:18px;
+    margin-right:10px;  /*added margin because left and top parameters not working*/
+    display:inline-flex;   /*added display because left and top parameters not working*/
+    background-color:#D9D9D9;
+}
+
+.in-div{
+    height:190px;
+    width:1295px;
+    left:392px;
+    top:558px;
+    background-color: lightgrey;
+    float:right;       /*added float property*/
+    margin-bottom:10px;  /*added margin because left and top parameters not working*/
+    border-radius:18px;
+    margin-right:10px;  /*added margin because left and top parameters not working*/
+    display:inline-flex;   /*added display because left and top parameters not working*/
+    
+}
+.snapimg{
+    left:39.16px;
+    top:48px;
+    width:85.35px;
+    height:23px;
+    
+}
+
+.invoice-aging{
+    height:678px;
+    width:379px;
+    left:1323px;
+    top:760px;
+    background-color:#D9D9D9;
+    float:right;     /*added float property*/
+    border-radius:18px;
+    margin-right:10px;  /*added margin because left and top parameters not working*/
+}
+.cashflow{
+    height:678px;
+    width:886px;
+    left:410px;
+    top: 764px;
+    background-color:#D9D9D9;
+    float:left;     /*added float property*/
+    margin-left:60px;  /*added margin because left and top parameters not working*/
+    border-bottom:10px;
+    margin-right:10px;  /*added margin because left and top parameters not working*/
+    /*margin-left:30px;*/
+    border-radius:18px;
+}
+.img-r39{
+    margin-top:20px;  /*added margin because left and top parameters not working*/
+    margin-right: 20px;  /*added margin because left and top parameters not working*/
+    margin-bottom: 20px;  /*added margin because left and top parameters not working*/
+    margin-left: 20px;  /*added margin because left and top parameters not working*/
+    height:309px;
+    width:309px;
+    left:428px;
+    top:163px;
+    border-radius: 19px;;
+}
+.img-r85{
+     margin-top:20px;  /*added margin because left and top parameters not working*/
+     margin-right: 20px;  /*added margin because left and top parameters not working*/
+     margin-bottom: 20px;  /*added margin because left and top parameters not working*/
+     margin-left: 20px;  /*added margin because left and top parameters not working*/
+     height: 309px;
+     width:309px;
+     left:828px;
+     top:503px;
+     border-radius: 10px;
+
+ }
+.wc{
+    height:51px;
+    width:201;
+    top:217px;
+    left:780px;
+    font-family: Inria Serif;
+    display:inline-block;   /*added display because left and top parameters not working*/
+}
+.wc-txt{
+    color:#7E7B7B;
+    left:780px;
+    top:240px;
+    width:748px;
+    height:26px;
+    font-family: Inria Serif;
+}
+.in-t{
+    width:96;
+    height:15px;
+    left:460px;
+    top:584px;
+    color:grey;
+    font-size:30px;
+    margin-left:100px;  /*added margin because left and top parameters not working*/
+    margin-right:100px;  /*added margin because left and top parameters not working*/
+}
+.img{
+    display:inline-flex;    /*added display because left and top parameters not working*/
+}
+/*in-$1{
+    display:inline-flex;
+}*/
+.limg-16{
+    height:137px;
+    margin-top:26.5px;  /*added margin because left and top parameters not working*/
+}
+.d1{
+    height:15px;
+    width:43px;
+    left:795px;
+    top:582px;
+    color:grey;
+    font-size:30px;
+    margin-left:100px;  /*added margin because left and top parameters not working*/
+    margin-right:100px;  /*added margin because left and top parameters not working*/
+}
+.credit-notes{
+    height:15px;
+    width:140px;
+    top:590px;
+    left:1069px;
+    color:grey;
+    font-size:30px;
+    margin-left:100px;  /*added margin because left and top parameters not working*/
+    margin-right:100px;  /*added margin because left and top parameters not working*/
+}
+.select{
+    left:1388px;
+    top:582px;
+    height:49px;
+    width:264px;
+    background-color: #4aeaea;
+    color:#ffffff;
+    border-radius:18px;
+    margin-left:60px;  /*added margin because left and top parameters not working*/
+    margin-right:20px;  /*added margin because left and top parameters not working*/
+    margin-top:5px;  /*added margin because left and top parameters not working*/
+    text-align:center; /*added text-align because left and top parameters not working*/
+    line-height:49px;
+}
+.invoice-line{
+    top:792px;
+    left:1354px;
+    height:15px;
+    width:298px;
+    color:#717171;
+    text-align:center; /*added text-align because left and top parameters not working*/
+}
+.due-balance{
+    top:1400px;
+    left:1398px;
+    height:15px;
+    width:190px;
+    color:#717171;
+    text-align:center; /*added text-align because left and top parameters not working*/
+    line-height:678 px;
+}
+.invdata{
+     color:grey;
+     left:50%;
+     right:50%;
+}
+.due-b{
+    margin-top:260px;    /*added margin because left and top parameters not working*/
+    text-align:center;  /*added text-align because left and top parameters not working*/
+    color:gray; 
+}
+.value{
+height: 15px;
+width:54px;
+left: 1464px;
+top: 1104px;
+color:grey;
+margin-right:auto;  /*added margin because left and top parameters not working*/
+margin-left:auto;  /*added margin because left and top parameters not working*/
+}
+.dis{
+    display:inline; /*added  display property*/
+}
+.months{
+    left:572px;
+    top:1378px;
+    width:598px;
+    height:26px;
+    line-height:25.5px;
+    color:#797777;
+}
+.table-data{
+    margin-left:30px;  /*added margin because left and top parameters not working*/
+    text-align:center;  /*added text-align because left and top parameters not working*/
+}
+.cibg{
+ height:100px;
+ width:100px;
+ left:767px;
+ top:337px;
+}
+.cisl{
+left:776px;
+top:354px;
+height:40px;
+width:73px;
+background-image: url(images/Rectangle\ 40.png);
+background-size: 100px 100px;
+}
+.citxt{
+    font-family: Inria serif;
+    left:780px;
+    top:403px;
+    height:29px;
+    width:81px;
+   margin-left:15px;  /*added margin because left and top parameters not working*/
+}
+.citxt2{
+    font-family: Inria serif;
+    left:1054px;
+    top:394px;
+    height:29px;
+    width:73px;
+    margin-left:15px;  /*added margin because left and top parameters not working*/
+}
+.citxt3{
+    font-family: Inria serif;
+    left:1321px;
+    top:390px;
+    height:29px;
+    width:73px;
+    margin-left:15px;  /*added margin because left and top parameters not working*/
+    margin-bottom:20px;  /*added margin because left and top parameters not working*/
+}
+.citxt4{
+    font-family: Inria serif;
+    left:1572px;
+    top:402px;
+    height:15px;
+    width:84px;
+   margin-left:15px;  /*added margin because left and top parameters not working*/
+}
+.ci3{
+    height:73;
+    width:53;
+    vertical-align:middle
+}
+
+.element1{
+   background-image: url(images/Rectangle\ 40.png);
+    background-size:100px,100px ;
+    height:100px;
+    width:100px;
+    left:767px;
+    top:337px;
+    display:inline-block; /*added  display property*/
+}
+.element2{
+    background-image: url(images/Rectangle\ 40.png);
+    background-size:100px,100px ;
+    height:100px;
+    width:100px;
+    left:1046px;
+    top:337px;   
+    display:inline-block; /*added  display property*/
+}
+.element3{
+    background-image: url(images/Rectangle\ 40.png);
+    background-size:100px,100px ;
+    height:100px;
+    width:100px;
+    left:1298px;
+    top:357px;   
+    display:inline-block;/*added  display property*/
+}
+.element4{
+    background-image: url(images/Rectangle\ 40.png);
+    background-size:100px,100px ;
+    height:100px;
+    width:100px;
+    left:1562px;
+    top:337px;   
+    display:inline-block;/*added  display property*/
+}
+.line{
+    display:block; /*added  display property*/
+} 
+display{
+    display:inline-block; /*added  display property*/
+}
+.poly{
+    height:20px;
+    width:20px;
+    left:1644px;
+    top:95.22px;
+    color:black;
+}
+.slider{
+    left:781.19px;
+    top:344.72px;
+    width:73px;
+    height:40px;
+    background-image: url(images/Rectangle\ 40.png);
+    background-size: 100px,100px;
+}
+.create-btn{
+    left:1400px;
+    top:60px;
+    width:210px;
+    height:50px;
+    border-radius: 14px;
+    display:inline-block;    /*added display because left and top parameters not working*/
+    margin-right:20px;
+    font-family:Inria serif;
+    font-size:30px;
+    background-color:#18EAEA;
+    color:white;
+    border-color:#18EAEA;
+}
+.uname{
+    left:1550px;
+    top:72px;
+    width:45px;
+    height:26px;
+    display:inline-block;/*added display property*/
+    margin-bottom:40px;
+    padding-left:10px;
+    padding-right:10px;
+
+}
+.notification{
+    left:1200px;
+    top:66px;
+    width:56px;
+    height:38px;    
+    background-color: lightgrey;
+    display:inline-block; /*added  display property*/
+    margin-right: 30px;  /*added margin because left and top parameters not working*/
+    text-align:center;  /*added text-align because left and top parameters not working*/
+    margin-left:30px;  /*added margin because left and top parameters not working*/
+    padding-right:30px;  /*added padding because left and top parameters not working*/
+}
+.small-img{
+    left:1484px;
+    top:61px;
+    width:49px;
+    height:49px;
+    display:inline-block; /*added  display property*/
+    margin-left:20px;
+    margin-right:30px;
+
+}
+.polygon{
+    left:1644px;
+    top:95.22px;
+    width:20px;
+    height:20px;
+    display:inline-block; /*added  display property*/
+    margin-bottom:10px;
+}
+
+.dash-img{
+    left:39.16px;
+    top:48px;
+    width:85.35px;
+    height:23px;
+}
+.dash-btn{
+    left:28px;
+    top:159px;
+    height:51px;
+    width:234px;
+    color:#468c80;
+    background-color: #468C80;
+    border-radius: 21px;
+}
+.hr{
+    height:0px;
+    width:288px;
+}
+.dash-txt{
+    left:73.38px;
+    top:171px;
+    height:714px;
+    width:225.14px;
+    line-height:25.5px;
+    color:#0491f6;
+}
+/*.cus-img{
+    left:0px;
+    top:248px;
+    width:23.21px;
+    height:20px;
+}*/
+.ss-div{
+    
+    display:inline-block;   /*added display because left and top parameters not working*/
+}
+.cus-div{
+    float:left;     /*added float property*/
+    display:block;    /*added display because left and top parameters not working*/
+    margin-left:50px;
+    
+
+}
+.cus-txt{
+    color:#0491f6;
+    display:inline-block;    /*added display because left and top parameters not working*/
+    margin-left:20px; /*added margin because top and left not working */
+}
+
