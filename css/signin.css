@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
+
 * {
         margin: 0;
         padding: 0;
@@ -49,7 +50,7 @@ h1 {
 }
 .singnin-box {
         background: #F5F2F2;
-        padding: 4rem;
+        padding: 4rem;  
         margin: 0 auto;
         width: 350px;
 }
@@ -119,7 +120,7 @@ button:hover {
 }
 .login-content {
         width: 418px;
-        padding: 5rem;
+        padding: 5rem; 
         color: #fff;
 }
 .wellcome-text {
