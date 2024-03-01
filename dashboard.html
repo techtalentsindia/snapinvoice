@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Snap Invoice</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard1.css">
+</head>
+
+<body>
+    <div class="wrapper main-div">
+        <header>
+            <div class="logo">
+                <a href="/basepage.html"><img src="images/Group 20.png" alt="Snap Invoice"></a>
+            </div>
+            <div class="nav">
+                <button class="create-btn"> +Create </button>
+                <img width="35" class="" src="images/Notification.jpg">
+                <img width="25" src="images/Ellipse 16.png" class="notification">
+                <div class="user-sec">
+                    <span>User</span>
+                    <img width="10" src="images/Polygon 1.png" class="">
+                </div>
+            </div> <!--end of nav div-->
+        </header>
+        <div class="body-section">
+            <div class="sidebar"><!--start of sidebar div-->
+
+                <a class="nav-dtn active" href="">
+                    <img src="images/Dashboard img.png">
+                    <span class="pl-20">Dashboard</span>
+                </a>
+                <a class="nav-dtn" href="">
+                    <img src="images/customer image.png">
+                    <span class="pl-20">Customer </span>
+                </a>
+                <a class="nav-dtn" href="">
+                    <img src="images/Refund.png">
+                    <span class="pl-20">Refund </span>
+                </a>
+                <a class="nav-dtn" href="">
+                    <img src="images/Create.png">
+                    <span class="pl-20">Create Product </span>
+                </a>
+                <a class="nav-dtn" href="">
+                    <img src="images/generate reports.png">
+                    <span class="pl-20">Generate Reports </span>
+                </a>
+                <a class="nav-dtn" href="">
+                    <img src="images/payments img.png">
+                    <span class="pl-20">Payments </span>
+                </a>
+                <a class="nav-dtn" href="">
+                    <img src="images/.png">
+                    <span class="pl-20">Templates </span>
+                </a>
+                <a class="nav-dtn" href="">
+                    <img src="images/issue credit nodes img.png">
+                    <span class="pl-20">Issue Credit Notes </span>
+                </a>
+                <a class="nav-dtn" href="">
+                    <img src="images/Settings.png">
+                    <span class="pl-20">settings </span>
+                </a>
+                <a class="nav-dtn" href="">
+                    <img src="images/Reminders.png">
+                    <span class="pl-20">Invoice Reminder </span>
+                </a>
+            </div><!--end of sidebar div-->
+            <section class="content-sec">
+                <div class="column">
+                    <img src="images/Rectangle 39.png" class="img-r39">
+                    <div class="sub-div">
+                        <h4 class="well-heading">Welcome User,</h4>
+                        <p class="well-text">Thanks for Choosing Snap Invoice, Get started using the below element</p>
+
+
+                        <div class="customize-data-grid">
+                            <div class="invoice-section">
+                                <div class="invoice-title">
+                                    <img width="30" src="images/custom-invoice-icon.png" alt="Customize invoice" />
+                                    <p> Customize invoice</p>
+                                </div>
+                                <div class="input-bottom-line">
+                                    <input type="text" />
+                                    <input type="text" />
+                                </div>
+                            </div>
+
+                            <div class="invoice-section">
+                                <div class="invoice-title">
+                                    <img width="40" src="images/Customer.png" alt="Create Customer">
+                                    <p>Create Customer</p>
+                                </div>
+                                <div class="input-bottom-line">
+                                    <input type="text" />
+                                    <input type="text" />
+                                </div>
+                            </div>
+                            <div class="invoice-section">
+                                <div class="invoice-title">
+                                    <img width="35" src="images/Invoice.png" alt="Create invoice">
+                                    <p>Create invoice</p>
+                                </div>
+                                <div class="input-bottom-line">
+                                    <input type="text" />
+                                    <input type="text" />
+                                </div>
+                            </div>
+                            <div class="invoice-section">
+                                <div class="invoice-title">
+                                    <img width="35" src="images/time-to-pay.png" alt="CreditNote">
+                                    <p>CreditNote</p>
+                                </div>
+                                <div class="input-bottom-line">
+                                    <input type="text" />
+                                    <input type="text" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end of welcome-user div-->
+
+                <div class="column bg-gray"><!--start of  in-div-->
+                    <div class="customize-data-grid p-20">
+                        <div class="invoiced">
+                            <h4 class="well-heading">invoiced</h4>
+                            <p>$ 0.00</p>
+                            <small>0%-Same as Last Week</small>
+                        </div>
+                        <div class="invoiced border-right border-left">
+                            <h4 class="well-heading">Due</h4>
+                            <p>$0.00</p>
+                            <small>0%-Same as Last Week</small>
+                        </div>
+                        <div class="invoiced border-right">
+                            <h4 class="well-heading">CreditNotes</h4>
+                            <p>$0.00</p>
+                            <small>0%-Same as Last Week</small>
+                        </div>
+                        <div class="invoiced">
+                            <select name="invdata" class="times-dropdown" id="invdata">
+                                <option value="week">This week</option>
+                                <option value="month">This month</option>
+                                <option value="quater">This quater</option>
+                                <option value="year">This year</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <div class="invdata">
+
+                    </div>
+
+
+                </div><!--end in-div-->
+                <div class="cash-flow-row">
+                    <div class="cashflow">
+                        <div class="cashflow-header">
+                            <h4>Cash flow</h4>
+
+                            <select name="invdata" class="cash-flow-dropdown" id="invdata">
+                                <option value="week">This week</option>
+                                <option value="month">This month</option>
+                                <option value="quater">This quater</option>
+                                <option value="year">This year</option>
+                            </select>
+                        </div>
+
+
+                        <div class="line-graph">
+                            <p>10</p>
+                            <p class="border-bottom"></p>
+                        </div>
+                        <div class="line-graph">
+                            <p>09</p>
+                            <p class="border-bottom"></p>
+                        </div>
+                        <div class="line-graph">
+                            <p>08</p>
+                            <p class="border-bottom"></p>
+                        </div>
+                        <div class="line-graph">
+                            <p>07</p>
+                            <p class="border-bottom"></p>
+                        </div>
+                        <div class="line-graph">
+                            <p>06</p>
+                            <p class="border-bottom"></p>
+                        </div>
+                        <div class="line-graph">
+                            <p>05</p>
+                            <p class="border-bottom"></p>
+                        </div>
+                        <div class="line-graph">
+                            <p>04</p>
+                            <p class="border-bottom"></p>
+                        </div>
+                        <div class="line-graph">
+                            <p>03</p>
+                            <p class="border-bottom"></p>
+                        </div>
+                        <div class="line-graph">
+                            <p>02</p>
+                            <p class="border-bottom"></p>
+                        </div>
+                        <div class="line-graph">
+                            <p>01</p>
+                            <p class="border-bottom"></p>
+                        </div>
+                        <div class="line-graph">
+                            <p>0</p>
+                            <p class="border-bottom"></p>
+                        </div>
+                    </div><!-- end of cashflow div-->
+
+                    <div class="invoice-aging"><!--start of invoice-aging div-->
+
+                        <p>The past due invoice aging</p>
+                        <div class="due-balance">
+                            <p> Past due balance</p>
+                            <p>$ 0.00</p>
+                        </div>
+                    </div><!--end of invoice-aging div-->
+
+
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
