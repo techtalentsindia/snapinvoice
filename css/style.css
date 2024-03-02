@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+        margin: 0;
+        padding: 0;
+        font-family: "Inria Serif", serif;
+}
+
+h1 {
+        margin: 2rem 0 1rem;
+        font-size: 40px;
+        letter-spacing: 8px;
+        font-weight: 400;
+}
+
+.bg-gray {
+        background-color: #D9D9D9;
+}
+
+.text-base {
+        font-size: 14px;
+}
+
+.float-right {
+        float: right;
+}
+
+.ml-30 {
+        margin-left: 30px;
+}
+
+.pl-20 {
+        padding-left: 20px;
+}
+
+.p-20 {
+        padding: 20px;
+}
+
+.text-right {
+        text-align: right;
+}
+
+.d-block {
+        display: block;
+}
+
+.border-left {
+        border-left: 1px solid #ccc;
+}
+
+.border-right {
+        border-right: 1px solid #ccc;
+}
+
+.border-bottom {
+        border-bottom: 1px solid #A4A4A4;
+}
+
+.gray-color {
+        color: #0F0E0E;
+}
+
+.wrapper {
+
+        width: 100%;
+}
+
+.grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+}
+
+.login-left {
+        padding: 8%;
+        background: url(/images/login-bg.svg)top center / cover no-repeat;
+}
+
+.login-right {
+        background-color: #09B7CE;
+}
+
+.singnin-box {
+        background: #F5F2F2;
+        padding: 4rem;
+        margin: 0 auto;
+        width: 350px;
+}
+
+.form-field {
+        margin: 30px 0;
+}
+
+.form-field>label>a {
+        font-size: 14px;
+}
+
+.form-field>label {
+        font-size: 18px;
+}
+
+.form-field>label,
+.form-field>label>a {
+        font-weight: 200;
+        color: #09B7CE;
+}
+
+input[type=text],
+input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        background-color: #D9D9D9;
+}
+
+/* Set a style for all buttons */
+button,
+.or {
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+        font-weight: bold;
+
+}
+
+.login-btn {
+        border-radius: 25px;
+        background: #09B7CE;
+        color: #fff;
+        margin-top: 3rem;
+}
+
+.login-organisation {
+        background: #BABCBC;
+        border-radius: 9px;
+
+}
+
+.or {
+        text-align: center;
+}
+
+button:hover {
+        opacity: 0.8;
+}
+
+.social-btn {
+        display: flex;
+        justify-content: space-between;
+
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        background-color: #f44336;
+}
+
+.login-content {
+        width: 418px;
+        padding: 5rem;
+        color: #fff;
+}
+
+.wellcome-text {
+        text-align: center;
+        line-height: 30px;
+}
+
+.join-us {
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+}
+
+
+/*Dashboard*/
+header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+}
+
+.nav {
+        display: flex;
+        align-items: center;
+}
+
+.create-btn {
+        border-radius: 10px;
+        font-size: 20px;
+        background-color: #18EAEA;
+        color: white;
+        border-color: #18EAEA;
+        padding: 8px 40px;
+        line-height: 20px;
+        margin-right: 20px;
+}
+
+.user-sec {
+        display: flex;
+        align-items: center;
+        margin-left: 8px;
+}
+
+.user-sec>span {
+        line-height: 0px;
+        padding-right: 5px;
+}
+
+.notification {
+        margin: 0 20px;
+}
+
+.body-section {
+        /* width: 100%; */
+        display: flex;
+        padding: 20px;
+}
+
+.sidebar {
+        width: 300px;
+}
+
+.nav-dtn {
+        display: flex;
+        align-items: center;
+        width: 190px;
+        margin: 10px;
+        padding: 10px;
+        color: #0491F6;
+}
+
+.active,
+.nav-dtn:hover {
+        background: rgb(70, 140, 128);
+        background: linear-gradient(180deg, rgba(70, 140, 128, 1) 35%, rgba(80, 205, 233, 1) 100%);
+        border-radius: 30px;
+        box-shadow: 0px 2px 2px #A2A2A2;
+}
+
+.content-sec {
+        width: 75%;
+        margin-left: 5px;
+}
+
+.column {
+        display: flex;
+        margin-bottom: 10px;
+        align-items: center;
+}
+
+.well-heading {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: 600;
+}
+
+.well-text {
+        color: #7E7B7B;
+        margin-bottom: 10px;
+}
+
+.img-r39 {
+        width: 200px;
+        height: 200px;
+        margin-right: 15px;
+}
+
+.invoice-section {
+        display: flex;
+        align-items: center;
+}
+
+.input-bottom-line {
+        display: flex;
+        flex-direction: column;
+        margin: 0 5px;
+
+}
+
+.input-bottom-line>input {
+        border: none;
+        border-bottom: 1px solid #dcdcdc;
+        background: none;
+        padding: 0;
+}
+
+.invoice-title {
+        background: #a4a4a4;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px;
+        min-width: 80px;
+        height: 72px;
+}
+
+.invoice-title>p {
+        font-size: 14px;
+}
+
+.customize-data-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.invoiced {
+        text-align: center;
+        color: #7d7c7c;
+        line-height: 30px;
+}
+
+.times-dropdown {
+        background: #4AEAEA;
+        border: none;
+        padding: 12px 40px;
+        border-radius: 20px;
+        color: #fff;
+}
+
+.cash-flow-row {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-template-rows: 1fr;
+        gap: 10px;
+}
+
+.cashflow {
+        background-color: #D9D9D9;
+        border-radius: 18px;
+}
+
+.cash-flow-dropdown {
+        margin-left: auto;
+        padding: 5px 10px;
+}
+
+.line-graph {
+        display: grid;
+        grid-template-columns: [first] 28px auto;
+        align-items: center;
+        padding: 10px 20px 10px 15px;
+}
+
+.cashflow-header {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #A4A4A4;
+        padding: 15px;
+}
+
+.invoice-aging {
+        background-color: #D9D9D9;
+        border-radius: 18px;
+        display: grid;
+        justify-content: space-around;
+        padding: 20px;
+        position: relative;
+}
+
+.due-balance {
+        color: #717171;
+        border-bottom: 1px solid #666;
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        line-height: 35px;
+        text-align: center;
+}
